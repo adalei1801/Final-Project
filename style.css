@@ -10,6 +10,7 @@ body {
 
 table {
   margin: auto;
+  margin-bottom: 40px;
 }
 
 table, th, td {
@@ -22,7 +23,7 @@ label {
   cursor: pointer;
 }
 
-h1,* {
+* {
   color: black;
 }
 
@@ -49,7 +50,9 @@ img {
 
 nav a {
  text-decoration: none;
- margin: 20px;
+ margin: 10px;
+ padding: 0.5em 0.75em;
+ display: block;
 }
 
 a:hover {
@@ -66,4 +69,37 @@ a:active {
 body {
    background-color: white;
   }
+}
+
+header {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+iframe {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+caption {
+  margin-bottom: 20px;
+}
+
+.nav .current {
+  background-color: black;
+  color: white;
+  word-spacing: 10px;
+}
+
+ul {
+ display: flex; 
+ justify-content: space-evenly;
+ list-style-type: none;
 }
