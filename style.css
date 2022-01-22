@@ -54,6 +54,8 @@ nav a {
  padding: 0.5em 0.75em;
  display: block;
  flex-direction: column;
+ justify-content: space-between;
+ list-style-type: none;
 }
 
 a:hover {
@@ -78,6 +80,11 @@ li {
   margin-bottom: 20px;
 }
 
+ol {
+ list-style-type: none;
+ margin-bottom: 50px;
+}
+
 iframe {
   margin-bottom: 20px;
   margin-left: 10px;
@@ -100,6 +107,15 @@ ul {
  padding: 0px;
 }
 
+@media only screen and (max-width: 768px) {
+iframe {
+   width: 100%;
+}
+td {
+  width: 100%;
+}
+}
+
 @media only screen and (max-width: 594px) {
 body {
    background-color: white;
@@ -114,14 +130,12 @@ ul {
 iframe {
    margin-left: 5px;
    margin-right: 10px;
-   width: 350px;
   }
 
 table, th, td {
    padding: 5px;
    padding-right: 20px;
    padding-left: 10px;
-   width: 150px;
   }
 
 }
