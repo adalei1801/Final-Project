@@ -8,6 +8,7 @@ function showDef(e) {
   }
 
   let def = e.target.nextElementSibling;
+  
   def.classList.add('active');
 }
 
